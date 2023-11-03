@@ -29,3 +29,20 @@ print(type(y))
 a = 4
 A = "Sally"
 #A will not overwrite a
+
+
+# bool
+
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+
+print((6 + 3) - (6 + 3))
