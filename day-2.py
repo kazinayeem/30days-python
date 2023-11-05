@@ -1,4 +1,4 @@
-#Python Arrays
+# Python Arrays
 
 cars = ["Ford", "Volvo", "BMW"]
 # loop
@@ -7,9 +7,7 @@ cars.append("new car 2")
 
 newcar = cars.copy()
 
-
 print(newcar)
-
 
 for c in cars:
     print(c)
