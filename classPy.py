@@ -6,8 +6,8 @@ class Person:
     def __str__(self):
          return f"{self.name}({self.age})"
 
-    def myfun(a):
-        return f"my name is {a.name} and my age is ({a.age})"
+    def myfun(self):
+        return f"my name is {self.name} and my age is ({self.age})"
 
 
 p1 = Person("John", 36)
